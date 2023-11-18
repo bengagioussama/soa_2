@@ -12,7 +12,7 @@ public class ProjetBusiness {
 	 public static List<Projet> projets;
 	    ChefProjetBusiness ChPB=new ChefProjetBusiness();
 	    public ProjetBusiness() {
-	    	projets= new ArrayList<>();
+	    	projets= new ArrayList<Projet>();
 	    }
 	    
 	    
